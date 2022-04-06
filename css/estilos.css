@@ -1,0 +1,600 @@
+/* --------------------------------------------------------------------------------GENERAL */
+/* desktop */
+@media screen and (min-width:321px){
+    body{
+        background: linear-gradient(90deg, rgba(238,130,238,1) 0%, rgba(183,248,192,1) 50%, rgba(255,255,255,1) 100%);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    *{
+        margin: 1;
+        padding: 0;
+    }
+
+}
+/* smartphone */
+@media screen and (max-width:320px){
+    body{
+        background: linear-gradient(90deg, rgba(238,130,238,1) 0%, rgba(183,248,192,1) 50%, rgba(255,255,255,1) 100%);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+
+/* ----------------------------------------------------------------------------------HEADER */
+
+
+/* desktop */
+@media screen and (min-width:321px){
+    /* frase incial */
+    /* header h1{
+        font-size: small;
+        text-decoration: underline;
+        color: grey;
+        font-weight: lighter;
+        margin: 0;
+        align-items: center;
+    } */
+    .melina{
+        font-size: small;
+        text-decoration: underline;
+        color: grey;
+        font-weight: lighter;
+        margin: 0;
+        text-align: center;
+        width: 600px;
+        background-color: green;
+        animation-name: un_efecto;
+        animation-iteration-count: 2;
+        animation-timing-function: ease-in;
+        animation-duration: 2s;
+        animation-delay: 3s;
+    }
+    @keyframes un_efecto{
+        0% {width: 600px;}
+        0,2s {width: 700px
+            background-color: red;
+        }
+    }
+    /* Logo */
+    .texto__centrado{
+        text-align: center;
+    }
+    .logo{
+        text-align: center;
+        width: 50%;
+    }
+    /* navegador */
+    nav ul{
+        list-style-type: none;
+    }
+    nav ul li{
+        display: inline-block;
+    }
+    /* BOTONES DEL MENU */
+    nav ul li a{
+        font-size: medium;
+        text-decoration: none;
+        color: #011627;
+        background-color: #B7F8CE;
+        margin: 2,5px;
+        padding: 5px;
+        border-radius: 5px;
+        transition: all 1s;
+    }
+    /* transition */
+    nav ul li a:hover{
+        background-color: #7A3B69;
+        font-size: large;
+    }
+}
+
+/* smartphone */
+@media screen and (max-width:320px){
+    /* frase incial */
+    header h1{
+        font-size: smaller;
+        text-decoration: underline;
+        color: grey;
+        font-weight: lighter;
+        margin: 0;
+        align-items: center;
+    }
+    /* Logo */
+    .texto__centrado{
+        text-align: center;
+    }
+    .logo{
+        text-align: center;
+        width: 60%;
+    }
+    /* navegador */
+    nav ul{
+        list-style-type: none;
+    }
+    nav ul li{
+        display: inline-block;
+        overflow: hidden;
+    }
+    /* BOTONES DEL MENU */
+    nav ul li a{
+        font-size: x-small;
+        text-decoration: none;
+        color: #011627;
+        background-color: #B7F8CE;
+        border-radius: 5px;
+        padding: 2px;
+        transition: all 0s;
+    }
+    nav ul li a:hover{
+        background-color: #7A3B69;
+        font-size: medium;
+    }
+}
+
+
+
+/* -------------------------------------------------------------------------------------INDEX */
+
+/* desktop */
+@media screen and (min-width:321px){
+        /* TEXTO SOBRE LA IMAGEN DE INICIO */
+    main  section div p{
+        font-size: xx-large;
+        color: #7A3B69;
+        text-align: center;
+    }
+    .imagen__texto--encima {
+        position: absolute;
+        left: 100%;
+        text-align: center;
+    }  
+    /*  IMAGEN DEL INICIO  */
+    .imagen__fondo{
+        background-image: url(https://scontent-mxp2-1.xx.fbcdn.net/v/t1.6435-9/157498632_102285771939853_8743023670437149624_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=e3f864&_nc_ohc=VJX6Oy6zBAwAX-JO1lj&_nc_ht=scontent-mxp2-1.xx&oh=00_AT8OS5KT3WArC4q6kgkB-vyFFIEY_yfdFTsh-j-R811MLA&oe=6254818E);
+        height: 500px;
+        width: 100%;
+        margin: 1px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        border-radius: 10px;
+    }
+}
+
+/* smartphone */
+@media screen and (max-width:320px){
+    /* TEXTO SOBRE LA IMAGEN DE INICIO */
+main  section div p{
+    font-size: smaller;
+    color: #7A3B69;
+    text-align: center;
+
+}
+.imagen__texto--encima {
+    position: absolute;
+    left: 100%;
+    text-align: center;
+}  
+/*  IMAGEN DEL INICIO  */
+.imagen__fondo{
+    background-image: url(https://scontent-mxp2-1.xx.fbcdn.net/v/t1.6435-9/157498632_102285771939853_8743023670437149624_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=e3f864&_nc_ohc=VJX6Oy6zBAwAX-JO1lj&_nc_ht=scontent-mxp2-1.xx&oh=00_AT8OS5KT3WArC4q6kgkB-vyFFIEY_yfdFTsh-j-R811MLA&oe=6254818E);
+    height: 200px;
+    width: 100%;
+    margin: 1px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: 200px;
+    border-radius: 10px;
+}
+}
+
+
+
+/* ----------------------------------------------------------------------------------------FOOTER */
+
+/* desktop */
+@media screen and (min-width:321px){
+    /* propiedades del contenedor total del footer */
+    .contents-footer{
+        width: 100%;
+        background-color: #B7F8CE;
+        border-radius: 10px;
+        margin-top: 10px;
+        /* con display flex se habilita el flexbox */
+        display: flex;
+        /* alinear elementos horizontalmente y en el centro  */
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    /* elementos dentro del footer */
+    .footer{
+        width: 1000px;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+        gap: 30px;
+        height: 100px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    footer ul li{
+        font-size: medium;
+        transition: all 1s;
+    }
+    footer ul li:hover{
+        font-size: x-large;
+    }
+    /* texto de footer */
+    footer a{
+        color: black;
+    }
+    /* icono de ir al inicio */
+    body span p a{     
+        font-size: large;
+        color: black;
+        font-style: initial;
+        font-weight: lighter;
+    }
+    .icon_footer{
+        width: 30px;
+    }
+    .icon_flotante{
+        position: fixed;
+        z-index: 2;
+        width: 40px;
+        height: 40px;
+        bottom: 50px;
+        right: 50px;
+    }
+}
+
+/* smartphone */
+@media screen and (max-width:320px){
+        /* propiedades del contenedor total del footer */
+    .contents-footer{
+        width: 100%;
+        background-color: #B7F8CE;
+        border-radius: 10px;
+        margin-top: 10px;
+        /* con display flex se habilita el flexbox */
+        display: flex;
+        /* alinear elementos horizontalmente y en el centro  */
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    /* elementos dentro del footer */
+    .footer{
+        width: 1000px;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        padding: 5px;
+        gap: 30px;
+        height: 100px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    footer ul li{
+        font-size: medium;
+        transition: all 1s;
+    }
+    footer ul li:hover{
+        font-size: x-large;
+    }
+    /* texto de footer */
+    footer a{
+        color: black;
+        font-size: smaller;
+    }
+    /* icono de ir al inicio */
+    body span p a{     
+        font-size: smaller;
+        color: black;
+        font-style: initial;
+        font-weight: lighter;
+    }
+    .icon_footer{
+        width: 20px;
+    }
+    .icon_flotante{
+        position: fixed;
+        z-index: 2;
+        width: 20px;
+        height: 20px;
+        bottom: 50px;
+        right: 50px;
+    }
+}
+
+
+
+/* ------------------------------------------------------------------------------SOBRE MI */
+
+
+/* desktop */
+@media screen and (min-width:321px){
+    .contents__photos{
+        width: fit-content;
+        display: flex;
+        justify-content: center;
+    }
+    .photos{
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+    }
+}
+/* smartphone */
+@media screen and (max-width:320px){
+    .contents__photos{
+        width: fit-content;
+        display: flex;
+        justify-content: center;
+    }
+    .photos{
+        width: 100%;
+        height: 80%;
+        margin: 0px;
+    }
+    section h1 u{
+        font-size: small;
+    }
+    section h2{
+        font-size: smaller;
+    }
+}
+
+
+
+
+
+
+
+/* -----------------------------------------------------------------------------SERVICIOS */
+
+
+/* desktop */
+@media screen and (min-width:321px){
+    main ul li{
+        margin-left: 40%;
+        text-align: justify;
+        text-decoration: none;
+        list-style-type: circle;
+    }
+}
+/* smartphone */
+@media screen and (max-width:320px){
+    main ul li{
+        margin-left:;
+        text-align: justify;
+        text-decoration: none;
+        list-style-type: circle;
+    }
+}
+
+
+
+/* --------------------------------------------------------------------------------------BLOG */
+
+
+
+
+/* desktop */
+@media screen and (min-width:321px){
+    /* Prop. cuadro de la noticia completa */
+    .novedades_cuadro{
+        text-align: center;
+        align-items: center;
+        font-weight: lighter;
+        width: auto;
+        height: auto;
+        margin-right: 5px;
+        margin-bottom: 10px;
+        padding: 20px;
+        border-top: 2px solid #011627;
+        border-left: 2px solid #ffffff;
+        border-bottom: 4px solid #B7F8CE;
+        border-right: 4px solid #B7F8CE;
+        background-color: #ffffff;
+    }
+        /* propiedades del texto de la noticia */
+        .novedades_texto{
+            font-family: 'Times New Roman', Times, serif;
+            color: #011627;
+            font-weight: lighter;
+            /* text-align: justify; */
+            font-size: small;
+        }
+    #novedades{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-areas: 
+        "texto1 texto2"
+        "texto3 texto3";
+    }
+    #texto1{
+        display: grid;
+        grid-area: texto1;
+        border: 1px solid #011627;
+        background-color: #ffffff;
+        width: auto;
+    }
+    #texto2{
+        display: grid;
+        grid-area: texto2;
+        border: 1px solid #011627;
+        background-color: #B7F8CE;
+        width: auto;
+    }
+    #texto3{
+        display: grid;
+        grid-area: texto3;
+        border: 1px solid #011627;
+        background-color: #ffffff;
+        gap: 3px;
+    }
+    .novedades_imagen{
+        width: 250px;
+    }
+}
+/* smartphone */
+@media screen and (max-width:320px){
+    /* Prop. cuadro de la noticia completa */
+    .novedades_cuadro{
+        text-align: center;
+        align-items: center;
+        font-weight: lighter;
+        font-size: small;
+        /* width: auto;
+        height: auto;
+        margin-right: 5px;
+        margin-bottom: 10px;
+        padding: 20px; */
+        border-top: 2px solid #011627;
+        border-left: 2px solid #ffffff;
+        border-bottom: 4px solid #B7F8CE;
+        border-right: 4px solid #B7F8CE;
+        background-color: #ffffff;
+    }
+    /* propiedades del texto de la noticia */
+    .novedades_texto{
+        font-family: 'Times New Roman', Times, serif;
+        color: #011627;
+        font-weight: lighter;
+        font-size: smaller;
+    }
+    .novedades_titulo{
+        font-size: medium;
+    }
+    #novedades{
+        display: grid;
+        grid-template-columns: 90%;
+        grid-template-areas: 
+        "texto1"
+        "texto2"
+        "texto3";
+        gap: 10px;
+        justify-content: center;
+    }
+    #texto1{
+        display: grid;
+        grid-area: texto1;
+        border: 1px solid #011627;
+        background-color: #ffffff;
+    }
+    #texto2{
+        display: grid;
+        grid-area: texto2;
+        border: 1px solid #011627;
+        background-color: #B7F8CE;
+    }
+    #texto3{
+        display: grid;
+        grid-area: texto3;
+        border: 1px solid #011627;
+        background-color: #ffffff;
+    }
+    .novedades_imagen{
+        width: 50%;
+    }
+}
+
+/* --------------------------------------------------------------------------------------CONTACTO */
+
+
+/* desktop */
+@media screen and (min-width:321px){
+        /* FORMULARIO Y MAPA EN box */
+    .contents__all{
+        display: flex;
+        background-color: #B7F8CE;
+        width: 100%;
+        border-radius: 10px;
+        flex-wrap: wrap;
+        gap: 50px;
+        align-items: center;
+        flex-direction: row;
+        
+    }
+    main form ul li{
+        list-style-type: none;
+        padding: 10px;
+        justify-content: left;
+    }
+    main ul li{
+        list-style: none;
+        padding: 20px;
+        justify-content: left;
+    }
+    .form{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 10px;
+        width: 500px;
+        flex-direction: column;
+        list-style-type: none;
+    }
+    .location{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        list-style-type: none;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+/* smartphone*/
+@media screen and (max-width:320px){
+        /* contiene el FORMULARIO Y MAPA EN box */
+    .contents__all{
+        display: flex;
+        background-color: #B7F8CE;
+        width: 100%;
+        border-radius: 10px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+    }
+    /* lista del formulario */
+    main form ul li{
+        list-style-type: none;
+        padding: 2px;
+        justify-content: left;
+    }
+    /* lista de la ubicacion */
+    main ul li{
+        list-style: none;
+        padding: 2px;
+        justify-content: left;
+    }
+    .form{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 1px;
+        width: 75%;
+        flex-direction: column;
+        list-style-type: none;
+    }
+    .location{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        gap: 1px;
+        list-style-type: none;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+
+
+
+
+
