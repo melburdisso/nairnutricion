@@ -1,0 +1,46 @@
+Instructivo GIT
+===============
+
+¿Cómo guardamos nuestros cambios?
+1. Inicializamos repositorio -> git init (Ejecutamos por única vez)
+2. Agregamos los archivos -> git add . (Agrega todos los archivos... en caso de agregar 1 archivo por vez... git add nombre_de_archivo.html)
+3. Hacemos commit -> git commit -m "Se actualizó la página principal con la nueva imagen de portada"
+
+---
+
+Cómo puedo saber mi estado?
+git status
+
+Cómo puedo saber en que rama estoy parado?
+git branch
+
+---
+
+Cómo puedo crear una rama?
+git branch nombre-rama
+o git checkout -b nombre-rama
+
+Cómo puedo modificar el nombre de una rama?
+git branch -m nombre-rama nuevo-nombre-rama
+
+Cómo puedo eliminar una rama?
+git branch -D nombre-rama
+
+Cómo movernos de una rama a otra rama?
+git checkout nombre-rama
+
+Cómo puedo saber todos los cambios que hice?
+git log o git log --oneline
+
+Cómo mergear?
+git checkout rama-principal (nos paramos en la rama principal master o main, según sea el caso)
+git merge nombre-rama (mergeamos... traemos los cambios de esa rama a la rama principal)
+
+Cómo agregar un repositorio remoto (de github, gitlab, etc...)
+git remote add origin link-repositorio.git
+
+Cómo modificar un repositorio remoto ya existente (de github, gitlab, etc...)
+git remote set-url origin link-repositorio.git
+
+Cómo puedo subir mi repositorio local a github?
+git push -u origin nombre-rama
