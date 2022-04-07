@@ -11,7 +11,6 @@
         margin: 1;
         padding: 0;
     }
-
 }
 /* smartphone */
 @media screen and (max-width:320px){
@@ -29,16 +28,16 @@
 
 /* desktop */
 @media screen and (min-width:321px){
-    /* frase incial */
-    /* header h1{
+    /* frase incial */ 
+    header h1{
         font-size: small;
         text-decoration: underline;
         color: grey;
         font-weight: lighter;
         margin: 0;
         align-items: center;
-    } */
-    .melina{
+    }
+    /* .melina{
         font-size: small;
         text-decoration: underline;
         color: grey;
@@ -52,12 +51,12 @@
         animation-timing-function: ease-in;
         animation-duration: 2s;
         animation-delay: 3s;
-    }
-    @keyframes un_efecto{
-        /* 0% {width: 600px;} */
-        /* 0,2s {width: 700px;} */
-        /* background-color: red; */
-    }
+    } */
+    /* @keyframes un_efecto{
+        0% {width: 600px;}
+        0,2s {width: 700px;}
+        background-color: red;
+    } */
     /* Logo */
     .texto__centrado{
         text-align: center;
@@ -167,28 +166,27 @@
 /* smartphone */
 @media screen and (max-width:320px){
     /* TEXTO SOBRE LA IMAGEN DE INICIO */
-main  section div p{
-    font-size: smaller;
-    color: #7A3B69;
-    text-align: center;
-
-}
-.imagen__texto--encima {
-    position: absolute;
-    left: 100%;
-    text-align: center;
-}  
-/*  IMAGEN DEL INICIO  */
-.imagen__fondo{
-    background-image: url(https://scontent-mxp2-1.xx.fbcdn.net/v/t1.6435-9/157498632_102285771939853_8743023670437149624_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=e3f864&_nc_ohc=VJX6Oy6zBAwAX-JO1lj&_nc_ht=scontent-mxp2-1.xx&oh=00_AT8OS5KT3WArC4q6kgkB-vyFFIEY_yfdFTsh-j-R811MLA&oe=6254818E);
-    height: 200px;
-    width: 100%;
-    margin: 1px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: 200px;
-    border-radius: 10px;
-}
+    main  section div p{
+        font-size: smaller;
+        color: #7A3B69;
+        text-align: center;
+    }
+    .imagen__texto--encima {
+        position: absolute;
+        left: 100%;
+        text-align: center;
+    }  
+    /*  IMAGEN DEL INICIO  */
+    .imagen__fondo{
+        background-image: url(https://scontent-mxp2-1.xx.fbcdn.net/v/t1.6435-9/157498632_102285771939853_8743023670437149624_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=e3f864&_nc_ohc=VJX6Oy6zBAwAX-JO1lj&_nc_ht=scontent-mxp2-1.xx&oh=00_AT8OS5KT3WArC4q6kgkB-vyFFIEY_yfdFTsh-j-R811MLA&oe=6254818E);
+        height: 200px;
+        width: 100%;
+        margin: 1px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: 200px;
+        border-radius: 10px;
+    }
 }
 
 
