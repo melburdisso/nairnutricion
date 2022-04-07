@@ -54,10 +54,9 @@
         animation-delay: 3s;
     }
     @keyframes un_efecto{
-        0% {width: 600px;}
-        0,2s {width: 700px
-            background-color: red;
-        }
+        /* 0% {width: 600px;} */
+        /* 0,2s {width: 700px;} */
+        /* background-color: red; */
     }
     /* Logo */
     .texto__centrado{
@@ -371,7 +370,6 @@ main  section div p{
 /* smartphone */
 @media screen and (max-width:320px){
     main ul li{
-        margin-left:;
         text-align: justify;
         text-decoration: none;
         list-style-type: circle;
