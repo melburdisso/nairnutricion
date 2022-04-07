@@ -2,9 +2,10 @@
 /* desktop */
 @media screen and (min-width:321px){
     body{
-        background-image: linear-gradient(to right, #B7F8CE, #edfbff, #ffffff, #edfbff, #B7F8CE);
+        background-color: #1C3738;
+        /* background-image: linear-gradient(to right, #B7F8CE, #edfbff, #ffffff, #edfbff, #B7F8CE);
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: cover; */
         font-family: Arial, Helvetica, sans-serif;
     }
     *{
@@ -15,9 +16,10 @@
 /* smartphone */
 @media screen and (max-width:320px){
     body{
-        background-image: linear-gradient(to right, #B7F8CE, #edfbff, #ffffff, #edfbff, #B7F8CE);
+        background-color: #1C3738;
+        /* background-image: linear-gradient(to right, #B7F8CE, #edfbff, #ffffff, #edfbff, #B7F8CE);
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: cover; */
         font-family: Arial, Helvetica, sans-serif;
     }
 }
@@ -88,7 +90,7 @@
         background-color: #1C3738;
         font-size: large;
         color: #ffffff;
-    }
+    }   
 }
 
 /* smartphone */
