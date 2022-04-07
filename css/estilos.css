@@ -3,9 +3,9 @@
 @media screen and (min-width:321px){
     body{
         background-color: #1C3738;
-        /* background-image: linear-gradient(to right, #B7F8CE, #edfbff, #ffffff, #edfbff, #B7F8CE);
+        background-image: linear-gradient(to right, #B7F8CE, #edfbff, #ffffff, #edfbff, #B7F8CE);
         background-repeat: no-repeat;
-        background-size: cover; */
+        background-size: cover;
         font-family: Arial, Helvetica, sans-serif;
     }
     *{
