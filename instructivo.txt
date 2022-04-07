@@ -39,7 +39,8 @@ git merge nombre-rama (mergeamos... traemos los cambios de esa rama a la rama pr
 Cómo agregar un repositorio remoto (de github, gitlab, etc...)
 git remote add origin link-repositorio.git
 
-Cómo modificar un repositorio remoto ya existente (de github, gitlab, etc...)
+Cómo modificar un repositorio remoto ya existente (de github, gitlab, etc...)para modificar un repositorio que 
+ya tenemos y lo queremos reemplazar por uno nuevo
 git remote set-url origin link-repositorio.git
 
 Cómo puedo subir mi repositorio local a github?
